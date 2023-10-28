@@ -8,6 +8,12 @@ import java.util.Scanner;
 /**
  *
  * @author Axioo
+ * NAMA     : Asmalik Hudri
+ * Prodi    : Teknik Informatika
+ * NIM      : 22205009
+ * Deskripsi Program    : Program ini berisi program berisi untuk menghitung
+ tunjangan karyawan yang sudah menikah/belum dan total gaji
+ 
  */
 public class TI_regpagi22205009Latihan17ProgramTunjangan {
 
@@ -19,11 +25,11 @@ public class TI_regpagi22205009Latihan17ProgramTunjangan {
         String status;
         double tunjangan;
         
-        System.out.println("======Program Tunjangan======");
+        System.out.println("==========Program Tunjangan==========");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Berapa gaji pokok anda perbulan? :");
+        System.out.print("Berapa gaji pokok anda perbulan?: Rp. ");
         gajipokok = scanner.nextInt();
-        System.out.print("Status Anda? (menikah/belum) :");
+        System.out.print("Status Anda? (menikah/belum)\t:");
         status = scanner.next();
                
         if (status.equalsIgnoreCase("Menikah")) {
